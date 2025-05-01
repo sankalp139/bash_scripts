@@ -1,0 +1,6 @@
+#!/bin/bash
+process="sshd"
+if ! pgrep $process > /dev/null; then
+  echo "$(date): $process down. Restarting..." >> /var/log/process_watcher.log
+  systemctl restart $process
+fi 

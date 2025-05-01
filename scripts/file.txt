@@ -1,0 +1,7 @@
+adam 24 biology
+James 21 Maths
+HEnry 24 Maths
+Jessica 23 biology
+John 25 Economics
+Jefferson 34 Business
+Jenny 26 Accounting

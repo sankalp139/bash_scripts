@@ -1,0 +1,5 @@
+#/bin/bash
+timestamp=$(date +"%Y%m%d%H%M")
+cp /var/log/syslog /var/log/syslog_$timestamp
+gzip /var/log/syslog_$timestamp
+
